@@ -140,13 +140,12 @@ if __name__ == "__main__":  #Funcion principal
 ## Punto 5:
 - Crear cuenta en stackoverflow y adjuntar imagen en el repo.
 
-<div align='center'>
-<figure> <img src="[![image.png](https://i.postimg.cc/jSrGSC1f/image.png)](https://postimg.cc/3dnLLrYr)" alt="" width="400" height="auto"/></br>
-<figcaption><b></b></figcaption></figure>
-</div>
+[![image.png](https://i.postimg.cc/jSrGSC1f/image.png)](https://postimg.cc/3dnLLrYr)
+
 
 
 ## Punto 6:
 - Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando, si tienen tiempo para redes poco útiles como fb, insta, o tiktok tienen tiempo para crear un perfil mamalon. Dejar enlace en el repo
+
 Mi perfil de linkendin es : https://www.linkedin.com/in/maria-paula-machuca-hortua-a14736272/
 
