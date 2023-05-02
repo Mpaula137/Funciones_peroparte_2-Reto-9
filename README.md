@@ -136,7 +136,31 @@ if __name__ == "__main__":  #Funcion principal
 ```
 ## Punto 4:
 - Utilice la siguiente plantilla de code para contar el tiempo:
+```
+import timeit #Se importa la libreria a ser utilizada
 
+def fibo(n : int )-> int: #Se define la función base
+  i : int = 1
+  # Caso base
+  n1 : int = 0
+  n2 : int = 1
+  while(i <= n):
+    # Condición
+    sumFibo = n1 + n2
+    # Actualización
+    n1 = n2
+    n2 = sumFibo
+    i += 1
+  return sumFibo #Retorna el resultado
+
+if __name__ == "__main__": #Función principal
+  num = int(input("Ingrese numero: ")) #Solicitamos el dato necesario   
+  start_time1 = timeit.default_timer() #Sew inicia a contar el tiempo de ejecución
+  serieFibo = fibo(num)
+  timer1= timeit.default_timer() - start_time1 #Se finaliza de contar el tiempo de ejecución
+  print(f"El último número de la serie de Fibonacci hasta {num} es {serieFibo}") #Se imprimen los resultados
+print(f"fibo se demoró {timer1} en correr")
+```
 ## Punto 5:
 - Crear cuenta en stackoverflow y adjuntar imagen en el repo.
 
